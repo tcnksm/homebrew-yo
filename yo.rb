@@ -19,7 +19,7 @@ class Yo < Formula
   end
 
   def caveats
-    msg = <<-EOF.undent
+    msg = <<-EOF
 
 $$\     $$\
 \$$\   $$  |
