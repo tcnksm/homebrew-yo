@@ -6,10 +6,10 @@ class Yo < Formula
 
   if Hardware.is_64_bit?
     url "https://github.com/tcnksm/yo/releases/download/v0.1.1/yo_0.1.1_darwin_amd64.zip"
-    sha1 "c40eed6e59dea1c8f6a62e19e60732f0c4eb3668"
+    sha1 "721c6e9550fdad565d5958751cebbc3cf34d91fb"
   else
     url "https://github.com/tcnksm/yo/releases/download/v0.1.1/yo_0.1.1_darwin_386.zip"
-    sha1 "31009ab4e7d7f2d6e2de3cb4cfea43755dd2c572"
+    sha1 "02b5ee54acf8da18ac6a9f5cf15c0a0d55e4ade0"
   end
 
   depends_on :arch => :intel
