@@ -2,14 +2,14 @@ require "formula"
 
 class Yo < Formula
   homepage "https://github.com/tcnksm/yo"
-  version '0.1.0'
+  version '0.1.1'
 
   if Hardware.is_64_bit?
-    url "https://github.com/tcnksm/yo/releases/download/v0.1.0/yo_0.1.0_darwin_amd64.zip"
-    sha1 "cf5201a994d9027654e1262a81658ed364aedc5a"
+    url "https://github.com/tcnksm/yo/releases/download/v0.1.1/yo_0.1.1_darwin_amd64.zip"
+    sha1 "c40eed6e59dea1c8f6a62e19e60732f0c4eb3668"
   else
-    url "https://github.com/tcnksm/yo/releases/download/v0.1.0/yo_0.1.0_darwin_386.zip"
-    sha1 "db4db47eb203b8cf1c9d8e765e4feafa578f108a"
+    url "https://github.com/tcnksm/yo/releases/download/v0.1.1/yo_0.1.1_darwin_386.zip"
+    sha1 "31009ab4e7d7f2d6e2de3cb4cfea43755dd2c572"
   end
 
   depends_on :arch => :intel
