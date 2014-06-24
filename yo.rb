@@ -17,4 +17,19 @@ class Yo < Formula
   def install
     bin.install 'yo'
   end
+
+  def caveats
+    msg = <<-EOF.undent
+
+$$\     $$\
+\$$\   $$  |
+ \$$\ $$  $$$$$$\
+  \$$$$  $$  __$$\
+   \$$  /$$ /  $$ |
+    $$ | $$ |  $$ |
+    $$ | \$$$$$$  |
+    \__|  \______/
+
+EOF
+  end
 end
