@@ -16,7 +16,10 @@ class Yo < Formula
 
   def install
     bin.install 'yo'
-    print <<-EOF
+  end
+
+  def caveats
+    msg = <<-'EOF'
 
 $$\     $$\
 \$$\   $$  |
@@ -26,6 +29,7 @@ $$\     $$\
     $$ | $$ |  $$ |
     $$ | \$$$$$$  |
     \__|  \______/
+
 
 EOF
   end
